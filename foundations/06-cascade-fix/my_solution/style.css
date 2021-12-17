@@ -1,0 +1,41 @@
+.para, .small-para {
+  color: hsl(0, 100%, 50%);
+}
+/* Fixed the rule CSS Cascading bug */
+.para {
+  font-size: 22px;
+}
+
+.small-para {
+  font-size: 12px;
+}
+
+.button {
+  background: #ffc0cb;
+  color: black;/*color rule should be white */
+  font-size: 20px;
+}
+
+/*Switched */
+.confirm {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+} 
+
+.child {
+  color: red;
+  font-size: 14px;
+}
+
+div.text {
+  color: green;
+  font-size: 28px;
+}
+
+/*Created new child ancestor selector*/
+div .text {
+  color : red;
+  font-size: 12px;
+}
