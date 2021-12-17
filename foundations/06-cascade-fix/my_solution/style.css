@@ -37,5 +37,5 @@ div.text {
 /*Created new child ancestor selector*/
 div .text {
   color : red;
-  font-size: 12px;
+  font-size: 14px;
 }
